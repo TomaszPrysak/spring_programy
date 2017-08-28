@@ -1,0 +1,36 @@
+package pl.pitek.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import pl.pitek.model.KontaktModel;
+
+@Controller
+public class BlogController {
+
+	@RequestMapping("/")
+	public String o_mnie(){
+		return "o_mnie";
+	}
+	
+	@RequestMapping("/blog")
+	public String blog(){
+		return "blog";
+	}
+	
+	@RequestMapping("/kontakt")
+	public String kontakt(){
+		return "kontakt";
+	}
+	
+	@GetMapping("/success")
+	public String success(Model model){
+		model.addAttribute("kontakt", new KontaktModel());
+		return "success";
+	}
+	
+	
+	
+}

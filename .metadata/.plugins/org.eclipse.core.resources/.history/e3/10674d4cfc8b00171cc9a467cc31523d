@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<link rel="stylesheet" href="style.css"/>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	</head>
+
+	<body>
+		<p th:="@{c.first}">first name</p>
+		<p th:="@{c.last}">last name</p>
+		<p th:="@{c.email}">email</p>
+	</body>
+</html>

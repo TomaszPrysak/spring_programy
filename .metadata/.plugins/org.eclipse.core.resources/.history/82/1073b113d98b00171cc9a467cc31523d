@@ -1,0 +1,12 @@
+package pl.pitek.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+public class OMnieController {
+	
+	@RequestMapping("/")
+	public String OMnie(){
+		return "o_mnie";
+	}
+	
+}

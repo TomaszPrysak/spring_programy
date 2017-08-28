@@ -1,0 +1,11 @@
+package pl.pitek.model;
+
+public class KontaktModel {
+
+	private String first;
+	private String last;
+	private String email;
+	
+	
+	
+}

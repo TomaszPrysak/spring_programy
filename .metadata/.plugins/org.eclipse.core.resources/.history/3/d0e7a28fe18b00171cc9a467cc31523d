@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<body>
+	
+		<h1>Witam na moim blogu</h1>
+
+		<ul><b>Menu</b>
+			<li><a href="/">O mnie</a></li>
+  			<li><a href="/blog">blog</a></li>
+  			<li><a href="/kontakt">kontakt</a></li>
+		</ul>
+		
+	
+	</body>
+
+</html>

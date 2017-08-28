@@ -1,0 +1,12 @@
+package pl.pitek.model;
+
+public class PostModel {
+	
+	private String title;
+	private String content;
+	private String sign;
+	
+	
+	
+	
+}

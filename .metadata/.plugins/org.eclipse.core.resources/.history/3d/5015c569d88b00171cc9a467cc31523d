@@ -1,0 +1,8 @@
+package pl.pitek.controller;
+
+public class OMnieController {
+	
+	@RequestMapping("/")
+	public
+	
+}

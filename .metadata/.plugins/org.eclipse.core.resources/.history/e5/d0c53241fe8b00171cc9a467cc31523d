@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<link rel="stylesheet" href="style.css"/>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	</head>
+
+	<body>
+		<p th:text="${k.first.toUpperCase()}">first name</p>
+		<p th:text="${k.last.toUpperCase()}">last name</p>
+		<p th:text="${k.email.toUpperCase()}">email</p>
+	</body>
+</html>

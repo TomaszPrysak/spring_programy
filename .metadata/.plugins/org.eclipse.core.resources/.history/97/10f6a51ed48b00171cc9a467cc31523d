@@ -1,0 +1,12 @@
+<html>
+
+	<body>
+	
+		<p>Hello in Spring Boot Application</p>
+		
+		<a href="info.html">Link</a>
+		<a href="https://www.w3schools.com">Visit W3Schools</a>
+	
+	</body>
+
+</html>

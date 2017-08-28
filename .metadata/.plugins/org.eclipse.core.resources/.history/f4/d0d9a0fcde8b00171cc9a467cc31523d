@@ -1,0 +1,15 @@
+<html>
+
+	<body>
+	
+		<h1>Witajcie na mojej stronie WWW!</h1>
+	
+		<ul>
+  			<li><a href="/blog">blog</a></li>
+  			<li><a href="/kontakt">kontakt</a></li>
+		</ul>
+		
+	
+	</body>
+
+</html>

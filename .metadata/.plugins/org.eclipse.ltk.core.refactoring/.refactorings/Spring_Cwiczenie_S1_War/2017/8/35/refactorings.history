@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;templates&apos;&#x0D;&#x0A;- Original project: &apos;Spring_Cwiczenie_S1&apos;&#x0D;&#x0A;- Destination element: &apos;templates&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     blog.html&#x0D;&#x0A;     kontakt.html&#x0D;&#x0A;     o_mnie.html" description="Copy files" element1="src/main/webapp/views/blog.html" element2="src/main/webapp/views/kontakt.html" element3="src/main/webapp/views/o_mnie.html" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1503917416915" target="/Spring_Dzien_1_MVC_Jar/src/main/resources/templates" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,16 @@
+<html>
+
+	<body>
+	
+		<h1>Witam na moim blogu</h1>
+	
+		<ul>
+			<li><a href="/">O mnie</a></li>S
+  			<li><a href="/blog">blog</a></li>
+  			<li><a href="/kontakt">kontakt</a></li>
+		</ul>
+		
+	
+	</body>
+
+</html>

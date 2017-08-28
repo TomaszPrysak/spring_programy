@@ -1,0 +1,11 @@
+<html>
+
+	<body>
+	
+		<p>Hello in Spring Boot Application</p>
+		
+		<a href="/views/info.html">Link</a>
+	
+	</body>
+
+</html>

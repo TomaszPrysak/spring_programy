@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<body>
+	
+		<h1>KONTAKT</h1>
+		
+		<ul><b>Menu</b>
+			<li><a href="/">O mnie</a></li>
+  			<li><a href="/blog">blog</a></li>
+  			<li><a href="#">kontakt</a></li>
+		</ul>
+		
+		<p>======================</p>
+		
+		<form action="/succes" method="get">
+			<p>Podaj imiê</p><input type="text" name="first"/><br/>
+			<p>Podaj Nazwisko</p><input type="text" name="last"/><br/>
+			<p>Podaj swój adres e-mail<input type="email" name="email"/><br/>
+			<p><input type="submit" value="Wyœlij"/><br/></p>	
+		</form>
+	
+	</body>
+
+</html>
