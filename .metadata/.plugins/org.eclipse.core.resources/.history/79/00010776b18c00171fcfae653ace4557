@@ -1,0 +1,18 @@
+package pl.pitek.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class CreditController {
+	
+	@RequestMapping("/")
+	public String home(){
+		return "home";
+	}
+	
+	@PostMapping("/result")
+	public String result(){
+		return "result";
+}

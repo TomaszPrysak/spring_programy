@@ -1,0 +1,13 @@
+package pl.pitek.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class DBController {
+	
+	@RequesMapping("/")
+	public String home(){
+		return "home"
+	}
+	
+}

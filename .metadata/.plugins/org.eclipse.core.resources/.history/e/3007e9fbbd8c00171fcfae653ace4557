@@ -1,0 +1,24 @@
+package pl.pitek.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import pl.pitek.model.CarModel;
+
+@Controller
+public class DBController {
+	
+	@RequestMapping("/")
+	public String home(){
+		
+		List<CarModel> cars = new ArrayList<>();
+		
+		car.add(new Car("A6", "Audi", 200000));
+		
+		return "home";
+	}
+	
+}

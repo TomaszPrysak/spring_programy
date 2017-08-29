@@ -1,0 +1,30 @@
+package pl.pitek;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import pl.pitek.model.CarModel;
+import pl.pitek.repository.CarRepository;
+
+@SpringBootApplication
+public class SpringDzien2MvcDataBaseApplication {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext ctx = SpringApplication.run(SpringDzien2MvcDataBaseApplication.class, args);
+		
+		List<CarModel> cars = new ArrayList<>();
+		
+		cars.add(new CarModel("A6", "Audi", 200000.0));
+		cars.add(new CarModel("Auris", "Toyota", 120000.0));
+		cars.add(new CarModel("Panda", "Fiat", 30000.0));
+		
+		CarRepository cr = ctx.getBean(CarRepository.class);
+		
+		cars.forEach(cr::save);
+	
+	}
+}

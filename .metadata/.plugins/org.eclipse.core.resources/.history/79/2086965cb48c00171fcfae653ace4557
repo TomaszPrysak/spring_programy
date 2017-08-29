@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<link rel="stylesheet" href="style.css"/>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	</head>
+
+	<body>
+		<h1>Result</h1>
+		<p>Oprocentowanie</p>
+		<p th:text="${reg.email}">email</p>
+		<p th:if="${reg.cb1 || reg.cb2 || reg.cb3}" th:text="Programing"></p>
+		<p th:if="${reg.cb1}" th:text="Java"></p>
+		<p th:if="${reg.cb2}" th:text="Python"></p>
+		<p th:if="${reg.cb3}" th:text="Other"></p>
+		<p th:if="${reg.radio}" th:text="English"></p>
+		<p th:text="${reg.radio}">radio</p>
+	</body>
+</html>

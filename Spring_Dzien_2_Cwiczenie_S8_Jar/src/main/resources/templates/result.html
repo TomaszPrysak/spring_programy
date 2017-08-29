@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<link rel="stylesheet" href="style.css"/>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	</head>
+
+	<body>
+		<h1>Result</h1>
+		<p>Kwota do spłaty:</p>
+		<p th:text="${credit.kwota*(1+credit.oprocentowanie)}">doSplaty</p>
+		<p>Kwota do spłaty:</p>
+		<p th:text="${(credit.kwota*(1+credit.oprocentowanie))/credit.czas}">doSplaty</p>
+		<p>Oprocentowanie:</p>
+		<p th:text="${credit.oprocentowanie*100 + '%'}">oprocentowanie</p>
+	</body>
+</html>

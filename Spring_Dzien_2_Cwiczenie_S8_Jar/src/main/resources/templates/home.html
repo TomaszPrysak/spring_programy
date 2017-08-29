@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<link rel="stylesheet" href="style.css"/>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	</head>
+	
+	<body>
+		
+		<h1>Kalkulator kredytowy</h1>
+		<form th:action="@{/result}" method="post" th:object="${credit}">
+			<p>Kwota kredytu: <input type="text" th:field="*{kwota}"/></p>
+			<p>Czas spłaty: <input type="text" th:field="*{czas}"/></p>
+			<input type="submit" value="Oblicz"/>
+		</form>
+	</body>
+</html>

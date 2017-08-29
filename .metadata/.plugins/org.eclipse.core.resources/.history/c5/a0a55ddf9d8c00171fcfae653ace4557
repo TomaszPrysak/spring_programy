@@ -1,0 +1,30 @@
+package pl.pitek.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import pl.pitek.model.RegisterModel;
+
+@Controller
+public class MainController {
+	
+	@RequestMapping("/") // formularz
+	public String home(Model model){
+		model.addAttribute("reg", new RegisterModel());
+		return "home";
+	}
+	
+	@PostMapping("/result") // wyjście z formularza
+	public String result(@ModelAttribute RegisterModel reg, Model model){
+		model.addAttribute("reg", reg);
+		reg.setLogin(reg.getLogin() + " ");
+		if(reg.getLogin().length() >= 4){
+			return "result";
+		}else{
+			return "redirect:/";
+		}
+	}
+}

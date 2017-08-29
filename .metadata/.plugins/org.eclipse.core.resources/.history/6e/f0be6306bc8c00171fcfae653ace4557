@@ -1,0 +1,15 @@
+package pl.pitek.controller;
+
+import javax.persistence.Entity;
+
+@Entity
+public class CarController {
+	
+	private long id;
+	private String name;
+	private String brand;
+	private double price;
+	
+	
+	
+}

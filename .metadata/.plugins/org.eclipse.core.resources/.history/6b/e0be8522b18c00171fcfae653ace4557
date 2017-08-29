@@ -1,0 +1,5 @@
+fpackage pl.pitek.controller;
+
+public class CreditController {
+
+}

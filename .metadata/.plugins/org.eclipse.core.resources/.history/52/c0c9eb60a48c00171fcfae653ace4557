@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<link rel="stylesheet" href="style.css"/>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	</head>
+
+	<body>
+		<h1>Result</h1>
+		<p>Login:</p>
+		<div th:switch="${reg.login}">
+			<p th:switch="${reg.login}" th:case="login123" th th:text="${reg.login} + ${reg.password}">login</p>
+		</div>
+		<p>Pass:</p>
+		<p th:text="${reg.password}">password</p>
+		<p>Birthdate:</p>
+		<p th:text="${reg.birthdate}">birthdate</p>
+		<p>Email:</p>
+		<p th:text="${reg.email}">email</p>
+		<p th:if="${reg.cb1 || reg.cb2 || reg.cb3}" th:text="Programing"></p>
+		<p th:if="${reg.cb1}" th:text="Java"></p>
+		<p th:if="${reg.cb2}" th:text="Python"></p>
+		<p th:if="${reg.cb3}" th:text="Other"></p>
+		<p th:if="${reg.radio}" th:text="English"></p>
+		<p th:text="${reg.radio}">radio</p>
+	</body>
+</html>

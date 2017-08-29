@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<link rel="stylesheet" href="style.css"/>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	</head>
+
+	<body>
+		<h1>Result</h1>
+		<p>Kwota do spłaty:</p>
+		<p th:text="${credit.kwota*(0.1+1)}">doSplaty</p>
+		<p>Kwota do spłaty:</p>
+		<p th:text="${math.round(((credit.kwota*(0.1+1))/credit.czas),2)}">doSplaty</p>
+	</body>
+</html>

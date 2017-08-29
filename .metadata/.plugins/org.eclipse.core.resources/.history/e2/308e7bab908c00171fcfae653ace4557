@@ -1,0 +1,14 @@
+package pl.pitek.model;
+
+public class RegisterModel {
+	
+	private String login;
+	private String pass;
+	private String email;
+	private String birthdate;
+	private boolean cb1;
+	private boolean cb2;
+	private boolean cb3;
+	
+	
+}

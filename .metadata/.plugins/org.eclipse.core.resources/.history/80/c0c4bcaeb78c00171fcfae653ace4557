@@ -1,0 +1,28 @@
+package pl.pitek.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import pl.pitek.model.CreditModel;
+
+@Controller
+public class CreditController {
+	
+	@RequestMapping("/")
+	public String home(Model model){
+		model.addAttribute("credit", new CreditModel());
+		return "home";
+	}
+	
+	@PostMapping("/result")
+	public String result(@ModelAttribute CreditModel credit, Model model){
+		model.addAttribute("credit", credit);
+		if(credit.getKwota() >= 100000){
+			credit.setOprocentowanie(0.08);
+		}
+		return "result";
+	}
+}

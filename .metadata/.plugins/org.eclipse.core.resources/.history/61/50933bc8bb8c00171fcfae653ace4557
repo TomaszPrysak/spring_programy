@@ -1,0 +1,8 @@
+package pl.pitek.controller;
+
+@Entity
+public class CarController {
+	
+	
+	
+}

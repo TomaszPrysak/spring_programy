@@ -1,0 +1,10 @@
+package pl.pitek.model;
+
+public class CreditModel {
+	
+	private double kwotaKredytu;
+	private int czasSplaty;
+	
+	
+	
+}

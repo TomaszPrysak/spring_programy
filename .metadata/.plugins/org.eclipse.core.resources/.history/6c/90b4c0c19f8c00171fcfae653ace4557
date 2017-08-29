@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<link rel="stylesheet" href="style.css"/>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	</head>
+
+	<body>
+		<p th:text="${reg.login} + ${reg.password}">login</p>
+		<p th:text="${reg.password}">password</p>
+		<p th:text="${reg.birthdate}">birthdate</p>
+		<p th:text="${reg.email}">birthdate</p>
+		<p th:text="${reg.cb1}">birthdate</p>
+		<p th:text="${reg.cb2}">birthdate</p>
+		<p th:text="${reg.cb3}">birthdate</p>
+		<p th:text="${reg.radio}">birthdate</p>
+	</body>
+</html>

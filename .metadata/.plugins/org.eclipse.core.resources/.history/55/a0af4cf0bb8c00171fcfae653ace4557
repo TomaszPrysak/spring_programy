@@ -1,0 +1,10 @@
+package pl.pitek.controller;
+
+import javax.persistence.Entity;
+
+@Entity
+public class CarController {
+	
+	
+	
+}

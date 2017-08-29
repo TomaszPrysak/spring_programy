@@ -1,0 +1,5 @@
+package pl.pitek.repository;
+
+public class CarRepository {
+
+}
