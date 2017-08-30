@@ -4,7 +4,9 @@
 <aop-project name="Spring_Dzien_1_MVC_Jar"/>
 <aop-project name="Spring_Dzien_1_MVC_War"/>
 <aop-project name="Spring_Dzien_1_Cwiczenie_S1_War"/>
+<aop-project name="Spring_Dzien_3_MVC_Validation_Jar"/>
 <aop-project name="Spring_Dzien_2_MVC_Jar"/>
 <aop-project name="Spring_Dzien_2_MVC_DataBase"/>
 <aop-project name="Spring_Dzien_2_Cwiczenie_S8_Jar"/>
+<aop-project name="D-MVC2"/>
 </aop-reference-model>

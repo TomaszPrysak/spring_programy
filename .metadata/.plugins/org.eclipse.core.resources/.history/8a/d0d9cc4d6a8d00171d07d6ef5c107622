@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Basic 79</title>
+<meta charset="iso-8859-1" />
+<link rel="stylesheet" href="layout.css" type="text/css" />
+</head>
+<body>
+	<h1>Rejestracja wykonana pomyślnie</h1>
+	<form th:action="@{/saveRegister}">
+		<input type="submit" value="Home"/>
+	</form>
+</body>
+</html>

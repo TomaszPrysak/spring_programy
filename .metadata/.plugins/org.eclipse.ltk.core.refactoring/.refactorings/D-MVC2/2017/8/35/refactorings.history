@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;D-MVC2/src/main/resources/templates/error.html&apos; to &apos;errorPage.html&apos;" description="Rename resource &apos;error.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/templates/error.html" name="errorPage.html" stamp="1504100026628" updateReferences="true"/>
+</session>

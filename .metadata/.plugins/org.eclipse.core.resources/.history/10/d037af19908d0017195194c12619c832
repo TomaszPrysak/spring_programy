@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	</head>
+	
+	<body>
+		<h1>Person validation</h1>
+		<form th:action="@{/}" method="post" th:object="${person}">
+			<p>Name: <input/></p>
+			<p>Last: <input/></p>
+			<p>Email: <input/></p>
+			<p>Age: <input/></p>
+			<input type="submit" value="Submit"/>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+package pl.pitek.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import pl.pitek.model.CarModel;
+
+@Repository
+public interface CarRepository extends JpaRepository<CarModel, Long> {
+	
+	List<CarModel> findByBrand(String brand);
+	
+	List<CarModel> findByPrice(Double price);
+	
+	List<CarModel> findByName(String name);
+	
+	List<CarModel> findByBrandAndPrice(String brand, Double price);
+	
+	List<CarModel> findFirstByBrand(String brand);
+	
+	
+	List<CarModel> findFirst3ByBrand(String barnd);
+	
+	// select * from cars where brand = b1 or brand = b2;
+	List<CarModel> findAllBrandOrBrand(String brand1, String brand2);
+	
+	List<CarModel> findByNameStartingWith(String name);
+	
+	List<CarModel> findAllByNameLike(String name);
+	
+	
+}

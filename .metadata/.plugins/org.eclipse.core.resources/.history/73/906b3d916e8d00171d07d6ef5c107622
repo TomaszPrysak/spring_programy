@@ -1,0 +1,8 @@
+package pl.reaktor.repository;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class RegisterRepo extends JpaRepository<Register, Long> {
+
+}

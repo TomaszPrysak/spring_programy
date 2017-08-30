@@ -1,0 +1,5 @@
+package pl.pitek.model;
+
+public class Person {
+
+}
