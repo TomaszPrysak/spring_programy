@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	</head>
+	
+	<body>
+		<h1>Unsecured Page</h1>
+		<p><a href="/secured">Link</p>
+    </body>
+</html>

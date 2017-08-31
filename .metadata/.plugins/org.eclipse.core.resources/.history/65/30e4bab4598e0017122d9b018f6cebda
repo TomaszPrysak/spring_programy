@@ -1,0 +1,7 @@
+pl.pitek.model.Person.first.NotEmpty = to pole nie może być puste
+
+pl.pitek.model.Person.last.NotEmpty = to pole nie może być puste
+
+pl.pitek.model.Person.email.NotEmpty = to pole nie może być puste
+
+pl.pitek.model.Person.email.Email = wprowadzona wartoż nie jest adresem email

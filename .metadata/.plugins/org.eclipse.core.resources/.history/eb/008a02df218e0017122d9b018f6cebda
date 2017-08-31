@@ -1,0 +1,5 @@
+pl.pitek.model.Person.firstName.NotEmpty=to pole nie może być puste
+
+pl.pitek.model.Person.lastName.NotEmpty=to pole nie może być puste
+
+pl.pitek.model.Person.lastName.NotEmpty=

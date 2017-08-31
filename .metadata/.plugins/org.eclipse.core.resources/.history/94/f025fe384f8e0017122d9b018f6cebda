@@ -1,0 +1,9 @@
+pl.pitek.model.Person.firstName.NotEmpty = to pole nie może być puste
+
+pl.pitek.model.Person.lastName.NotEmpty = to pole nie może być puste
+
+pl.pitek.model.Person.email.NotEmpty = to pole nie może być puste
+
+pl.pitek.model.Person.email.Email = wprowadzona wartość nie jest adresem email
+
+pl.pitek.model.Person.age.Min = jesteś za młody szczylu! (minimalny wiek to: {value})

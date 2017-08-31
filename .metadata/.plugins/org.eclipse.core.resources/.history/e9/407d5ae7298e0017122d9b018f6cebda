@@ -1,0 +1,4 @@
+security.basic.enabled=true
+security.user.name=tomek
+security.user.password=pass
+security.user.role=USER

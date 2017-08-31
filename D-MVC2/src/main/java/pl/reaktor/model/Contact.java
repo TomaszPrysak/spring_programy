@@ -1,9 +1,16 @@
 package pl.reaktor.model;
 
+import org.hibernate.validator.constraints.Email;
+import org.hibernate.validator.constraints.NotEmpty;
+
 public class Contact {
 
+	@NotEmpty(message = "{pl.pitek.model.Contact.first.NotEmpty}")
 	private String first;
+	@NotEmpty(message = "{pl.pitek.model.Contact.last.NotEmpty}")
 	private String last;
+	@Email(message = "{pl.pitek.model.Contact.email.Email}")
+	@NotEmpty(message = "{pl.pitek.model.Contact.email.NotEmpty}")
 	private String email;
 	public String getFirst() {
 		return first;
